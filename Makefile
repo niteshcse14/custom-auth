@@ -2,7 +2,7 @@ DEV_ROCKS = busted luacheck lua-llthreads2
 BUSTED_ARGS ?= -o gtest -v --exclude-tags=ci
 TEST_CMD ?= bin/busted $(BUSTED_ARGS)
 KONG_PATH ?=/kong
-PLUGIN_NAME := kong-custom-plugin
+PLUGIN_NAME := custom-auth
 
 .PHONY: install uninstall dev lint test test-integration test-plugins test-all clean
 

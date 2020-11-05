@@ -1,1 +1,1 @@
-# kong-authentication-plugin
+# custom-auth
