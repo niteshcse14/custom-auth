@@ -21,8 +21,8 @@ local pluginName = "hide-token"
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins."..pluginName..".handler"] = "handler.lua",
-    ["kong.plugins."..pluginName..".schema"] = "schema.lua",
-    ["kong.plugins."..pluginName..".header_filter"] = "header_filter.lua",
+    ["kong.plugins."..pluginName..".handler"] = "kong/plugins/"..pluginName.."/handler.lua",
+    ["kong.plugins."..pluginName..".schema"] = "kong/plugins/"..pluginName.."/schema.lua",
+    ["kong.plugins."..pluginName..".header_filter"] = "kong/plugins/"..pluginName.."/header_filter.lua",
   }
 }
