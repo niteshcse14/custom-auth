@@ -4,13 +4,13 @@ version = "0.1.0-1"
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "http://github.com/beatsbears/kong-plugin-blog",
+  url = "https://github.com/niteshcse14/custom-auth.git",
   tag = "0.1.0"
 }
 
 description = {
   summary = "hide-token is a plugin for removing potentially sensitive security token headers from responses.",
-  homepage = "http://github.com/beatsbears/kong-plugin-blog",
+  homepage = "https://github.com/niteshcse14/custom-auth.git",
   license = "MIT"
 }
 
